@@ -1,0 +1,16 @@
+jJflash for Ubuntu:
+
+There is no GUI. Time to rip off that bandaid...
+
+To flash some stuff
+1. Navigate to the /usr/bin directory
+2. enter the command <JLinkExe> to start the program
+
+Once opened:
+1. <connect> connects to the emulator
+2. Choose the target to connect to (this can be found in the schematic
+3. Choose <S> for SWD
+4. Choose 4000Khz for speed, or faster if needed
+5. Use command <loadfile> followed by the path to the file to be loaded. 
+   the path starts at Root.
+

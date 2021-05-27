@@ -1,0 +1,8 @@
+Comparing .bin files:
+
+With Linux:
+Use the command "xxd" to create a .hex file from the .bin file.
+
+The command "code -d" will open VScode in diff mode, so....
+"code -d file1.hex file2.hex" will open code in diff mode.
+WOOT!

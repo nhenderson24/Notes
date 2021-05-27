@@ -1,0 +1,4 @@
+Sh!t I need to know about docker.
+
+command line:
+docker run -i -v "C:\Users\nhenderson\Documents\GitHub\BAF_Git_Repo\NatesPlayground":/sandbox firmwarebuild

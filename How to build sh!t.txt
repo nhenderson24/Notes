@@ -1,0 +1,11 @@
+building stuff
+how to build stuff
+
+THE DOCKER IMAGE IS ALREADY BUILT, DUMBASS!
+
+1. clone el repo
+2. got to root of repo
+3. run python RunBuildscript.py --buildtype debug (or whatever) fullclean
+4. "                                                          " configure
+5. "                                                          " build
+

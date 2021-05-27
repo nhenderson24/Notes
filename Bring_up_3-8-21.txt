@@ -1,0 +1,45 @@
+Larn'n with {}
+
+3/8
+Toolchain.cmake - A list of the tools cmake needs
+	Used for cross compliling - a way of telling Cmake what it's building for.
+	If not toolchain is not used, cmake will compile for the computer's native environment!
+
+ 
+Once the toolchain file is comlete
+From the command line, during the build configure step, the path to the toolchain file must be provided.
+If not provided, cmake will build for the native machine.
+ 
+ 
+ 
+cmake supports 4 different build types:
+ - debug
+ - release
+ - Minimum size release
+ - a release with debug info
+ 
+ 
+ ninja - builds the project
+ 
+ 
+ Homework:
+ Copy the toolchain file into el project
+ generate the HAL using STM cubed
+ 
+configure IOs as PWMs
+Configure PWM Timers
+100Hz - 2kHz
+Setup FREERTOS in STMCubed
+
+
+Changing duty cycles changes brightness
+
+Simplest path, scan swithes in a loop
+2nd step process buttons on interrupt
+
+   - 
+
+LEARN WHAT STACK IS!!!
+FreeRTOS.org has literature
+
+

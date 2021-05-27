@@ -1,0 +1,17 @@
+Git Submodules
+
+
+
+
+
+Updating DCP to a specific MCP branch:
+
+- nav into the DCP REPO at the correct branch
+- cd into BasVfdFirmware dir
+-> git fetch origin (gets new submodule info, BUT DOES NOT switch to that submodule branch)
+-> git checkout <branch> (switches to the selected branch)
+
+- cd back to DCP repo
+-> git status (verify the change has been made!)
+-> git add <repo name> (updates the main repo's knowledge of the submodule)
+-> git commit (will ask for an update, provide in vs code!)
